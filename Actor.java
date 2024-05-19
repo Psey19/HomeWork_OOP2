@@ -4,7 +4,7 @@ public abstract class Actor implements ActorBehaviour {
     protected boolean isTakeOrder;
 
     String getName() {
-        return null;
+        return name;
     }
 
     public Actor(String name) {
